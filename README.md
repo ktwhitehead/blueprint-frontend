@@ -4,6 +4,8 @@
 
 ## Getting Started
 
+Ensure the API server is running, https://github.com/ktwhitehead/blueprint-api-server
+
 Copy the contents of the `.env.example` into a new `.env` file. \
 Run `npm install` to install dependencies. \
 Run `npm run start` to start the server and host the frontend at `http://localhost:5173`.
@@ -33,6 +35,7 @@ Run tests with `npm run test` or `npm run test:watch`
 - Lack of test coverage
 
   - Ideally, I'd have unit tests for each individual component.
+  - Tests should cover happy and non-happy paths.
   - Some "integration" style tests for validating behavor between multiple components.
   - E2E tests
 
@@ -55,7 +58,7 @@ Run tests with `npm run test` or `npm run test:watch`
   - This project didn't seem complex enough to introduce any kind of state management but could possibly reduce cognative load \
     by managing state at a higher level and better organizing/breaking down components.
 
-- Better fetch/api handling
+- Better fetch/api handling, loading/error states
 
   - I used a `useFetch` hook stolen from the internet and didn't think it really served this project well.
   - I'd consider a simpler custom api client instead.
@@ -65,6 +68,8 @@ Run tests with `npm run test` or `npm run test:watch`
 
   - Completing a screener is awkward, should go back to the 'Select a screener' view.
   - I'd personally prefer the ability to see my selected answer and click a "Next" button to move on to the next question.
+  - The screener selection screen feels awkward and could use better styling.
+  - Shell/Skeleton loading.
 
 - Package analysis
 
