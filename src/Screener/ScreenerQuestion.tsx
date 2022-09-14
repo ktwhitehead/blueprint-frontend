@@ -21,13 +21,14 @@ const ScreenerQuestion = ({ questionText, questionId, answers, userAnswers, onAn
 
   return (
     <>
-      <QuestionHeader>{questionText}</QuestionHeader>
+      <QuestionHeader data-testid={'screener-question-header-text'}>{questionText}</QuestionHeader>
       <RadioWrapper>
         {answers?.map((answer) => (
           <Radio
             key={uuidv4()}
             text={answer.title}
             id={questionId}
+            testId={`screener-question-${questionId}-${answer.value}`}
             value={answer.value}
             checked={isChecked(answer.value)}
             onSelect={onAnswer}
