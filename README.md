@@ -14,6 +14,11 @@ Run `npm run start` to start the server and host the frontend at `http://localho
 
 Run tests with `npm run test` or `npm run test:watch`
 
+## Deploy
+
+Code merged to `main` branch triggers a new deploy.
+Frontend deployed via vercel at https://blueprint-frontend.vercel.app/
+
 #### Reasoning behind your technical choices
 
 - I chose React for its maturity and stability as well as its popularity among the general dev community.
