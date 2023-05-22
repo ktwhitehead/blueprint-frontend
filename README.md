@@ -84,7 +84,7 @@ Frontend deployed via vercel at https://blueprint-frontend.vercel.app/
 
 #### Link to other code you're particularly proud of
 
-- Feel free to look at any of my repos at github.com/ktwhitehead though they are mostly half baked projects and not something I'm necessarily proud of. \
+- Feel free to look at any of my repos at github.com/ktwhitehead, though they are mostly half baked projects.
 - I'm semi proud of a project I still maintain, but I won't share repo because it was created years ago and it's embarrasing how bad the code is:
   - pullpokes.com
 - I've worked on/maintain other projects with a friend:
